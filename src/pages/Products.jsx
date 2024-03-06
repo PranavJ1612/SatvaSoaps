@@ -43,7 +43,7 @@ const Products = () => {
       </div>
       <ReactWhatsapp
         id="contact"
-        number={process.env.REACT_APP_WHATSAPP_NUMBER}
+        number={process.env.REACT_APP_WHATSAPP_NUMBER} //put your number as "+91-number".
         message="Hello, I'd like to purchase your product."
         className="px-6 py-2 bg-[#9747FF] hover:brightness-50 hover:drop-shadow-xl text-white text-sm md:text-xl lg:text-2xl md:font-semibold rounded-lg mb-2 mt-3"
       >
@@ -54,14 +54,3 @@ const Products = () => {
 };
 
 export default Products;
-
-{
-  /* <button
-        className="px-3 py-1 md:px-8 md:py-2 bg-[#9747FF] hover:brightness-50 hover:drop-shadow-xl text-white text-sm md:text-xl lg:text-2xl md:font-semibold rounded-lg"
-        onClick={() => {
-          window.open("https://wa.me/919922503966", "_blank");
-        }}
-      >
-        Buy Now
-      </button> */
-}
