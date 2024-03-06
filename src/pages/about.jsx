@@ -14,7 +14,7 @@ const About1 = () => {
         About Us
       </h1>
       <div className="absolute z-10 max-h-[500px] text-white flex flex-col justify-center items-center">
-        <p className="  text-center h-full md:w-[700px] md:text-xl lg:text-2xl text-sm  mt-24  align-middle px-3 ">
+        <p className="  text-center h-full md:w-[700px] md:text-xl lg:text-2xl text-md  mt-24  align-middle px-3 ">
           Welcome to Satva, your ultimate destination for indulging in the
           purest pleasures of naturally hand-crafted soaps and chocolates.
           Founded by Maitreyee Joshi, our passion for wholesome living led us to
