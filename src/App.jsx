@@ -18,7 +18,7 @@ const App = () => {
           <div id="home">
             <Home />
           </div>
-          <div id="">
+          <div>
             <WhySatva />
           </div>
           <div id="about">
