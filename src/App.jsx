@@ -32,8 +32,8 @@ const App = () => {
 
         <Link to="home" smooth={true} spy={true} duration={200}>
           <FaCircleArrowUp
-            size={25}
-            className=" rounded-full text-black z-10 right-0 fixed bottom-0 m-3"
+            size={30}
+            className=" rounded-full bg-white text-black z-10 right-0 fixed bottom-0 m-3"
           />
         </Link>
       </div>

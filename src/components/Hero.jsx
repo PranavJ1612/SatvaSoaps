@@ -23,7 +23,7 @@ const Hero = () => {
 
       {/* Buttons */}
       <div className="absolute bottom-12 z-10 right-0 left-0">
-        <div className=" flex items-center justify-center gap-2">
+        <div className=" flex items-center justify-center gap-2 mb-10">
           <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
           <div className="w-3 h-3 bg-white rounded-full"></div>
           <div className="w-3 h-3 bg-gray-400 rounded-full"></div>

@@ -9,12 +9,12 @@ const Appbar = () => {
     setNav(!nav);
   };
 
-  // const scrollToWhatsApp = () => {
-  //   window.open("https://wa.me/919922503966", "_blank");
-  // };
+  const handleNavItemClick = () => {
+    setNav(false);
+  };
 
   return (
-    <div className=" text-white flex justify-between items-center absolute w-full z-10 mt-2">
+    <div className=" text-white flex justify-between items-center absolute w-full z-10 mt-2 ">
       <img
         src={logo}
         alt="logo"
@@ -76,6 +76,7 @@ const Appbar = () => {
           smooth="true"
           duration={200}
           className=" p-4 cursor-pointer  border-b border-b-gray-50"
+          onClick={handleNavItemClick}
         >
           Home
         </Link>
@@ -85,6 +86,7 @@ const Appbar = () => {
           smooth="true"
           duration={200}
           className=" p-4 cursor-pointer  border-b border-b-gray-50"
+          onClick={handleNavItemClick}
         >
           About
         </Link>
@@ -94,6 +96,7 @@ const Appbar = () => {
           smooth="true"
           duration={200}
           className=" p-4 cursor-pointer  border-b border-b-gray-50"
+          onClick={handleNavItemClick}
         >
           Products
         </Link>
@@ -103,7 +106,7 @@ const Appbar = () => {
           smooth="true"
           duration={200}
           className=" p-4 cursor-pointer  "
-          // onClick={scrollToWhatsApp}
+          onClick={handleNavItemClick}
         >
           Contact
         </Link>

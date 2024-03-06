@@ -18,7 +18,7 @@ export const data = [
   {
     id: 1,
     name: "Ubtan soap",
-    category: "bestSeller",
+    category: "Besteller",
     img: ubtan,
     dprice: "Rs 75.00",
     price: "Rs 120.00",
@@ -33,7 +33,7 @@ export const data = [
   {
     id: 3,
     name: "Coffee soap",
-    category: "bestSeller",
+    category: "Bestseller",
     img: coffee,
     dprice: "Rs 65.00",
     price: "Rs 110.00",
@@ -41,7 +41,7 @@ export const data = [
   {
     id: 4,
     name: "Papaya soap",
-    category: "bestSeller",
+    category: "Bestseller",
     img: papaya,
     dprice: "Rs 65.00",
     price: "Rs 110.00",
@@ -63,7 +63,7 @@ export const data = [
   {
     id: 7,
     name: "Oceanic soap",
-    category: "bestSeller",
+    category: "Bestseller",
     img: oceanic,
     dprice: "Rs 65.00",
     price: "Rs 110.00",
@@ -85,7 +85,6 @@ export const data = [
   {
     id: 10,
     name: "Aloe Vera soap",
-    category: "kids",
     img: aloe_vera,
     dprice: "Rs 65.00",
     price: "Rs 110.00",

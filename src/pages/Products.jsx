@@ -13,8 +13,12 @@ const Products = () => {
         {data?.map((item, index) => (
           <div
             key={index}
-            className="bg-gray-100 drop-shadow-md h-[112px] md:h-[220px] lg:h-[235px] w-full grid grid-rows-5 hover:scale-105 duration-300"
+            className="relative bg-gray-100 drop-shadow-md h-[112px] md:h-[220px] lg:h-[235px] w-full grid grid-rows-5 hover:scale-105 duration-300"
           >
+            {/* category */}
+            <div className="absolute top-0 right-0 bg-[#c197f8] text-white text-xs md:text-lg    rounded-tr-md rounded-bl-md  md:w-24 px-1 text-center">
+              {item.category}
+            </div>
             {/* image */}
             <img
               src={item.img}
